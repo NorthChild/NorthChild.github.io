@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+    color: #F72585;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h1, h2 {
+    margin-right: 2em;
+    color: #4CC9F0;
+}
+
+#profileImg {
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+}
+
+.skillBox {
+    border: 5px #F72585;
+    border-style: ridge;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hrDivisor {
+    background: #F72585;
+    border-color: #000000;
+    border-style: hidden;
+    height: 0.3em;
+    width: 85%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.hobbiesBox {
+
+    border: 5px #F72585;
+    border-style: ridge;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.goalBox {
+
+    border: 5px #F72585;
+    border-style: ridge;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #F72585;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4CC9F0;
+}
+
+.ulBox {
+    
+}
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    width: 10vh;
+    border: #F72585;
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
+
+.nav-item:hover{
+
+    border-color: #4CC9F0;
+}
+
+#formBox {
+
+    color: #F72585;
+    padding: 50px;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#mysearch {
+    border-radius: 5px;
+}
+
+#formBox input[type = "text"]{
+
+    padding: 8px;
+    border: none;
+    background-color: #4CC9F0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+
+.button {
+    padding: 8px;
+    border: none;
+    background-color: #4CC9F0;
+    border-radius: 5px;
+    margin-top: 1em;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    text-transform: uppercase;
+
+}
+
+.button:hover {
+    color: #F72585;
+}
+
+
+
+.textBox {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexMainContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nameFlexBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    padding: 15px;
+}
