@@ -164,6 +164,8 @@ table, th, td {
     border: 1px solid;
     text-align: center;
     padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
