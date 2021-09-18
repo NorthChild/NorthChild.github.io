@@ -174,3 +174,7 @@ table, th, td {
     text-align: center;
 }
 
+.tableProj {
+    margin-left: auto;
+    margin-right: auto;
+}
